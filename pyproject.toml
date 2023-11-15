@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-assignment"
+version = "0.1.0"
+description = ""
+authors = ["blacksmokezip <hanzomainer1488@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_assignment"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.8.1"
+pyqt5 = "5.12.2"
+
+[tool.poetry.scripts]
+city_grid = "test_assignment.main:main"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
