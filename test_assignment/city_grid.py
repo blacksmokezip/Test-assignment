@@ -115,6 +115,7 @@ class CityGrid:
     def find_most_reliable_path(self, R: int, towers: list, start: tuple, end: tuple) -> list:
         """
         Находит самый надежный путь между двумя башнями.
+
         :param R: радиус башен
         :param towers: все башни
         :param start: Координаты начальной башни (x, y).
